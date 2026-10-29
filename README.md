@@ -2,7 +2,7 @@
 
 An AI-assisted legal empowerment platform for self-represented litigants ("self-actors") in Zimbabwe's courts, focused on the Harare High Court and Magistrates Court. Final-year dissertation project, BComm Honours in Information Systems, Midlands State University.
 
-**Live demo:** [add your Render link here]  ·  **Demo video:** [optional]
+**Live demo:** [https://self-actors-hub-zw.onrender.com]  ·  **Demo video:** [optional]
 
 > Information and document drafts only, not legal advice.
 
