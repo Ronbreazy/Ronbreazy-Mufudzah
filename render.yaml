@@ -1,0 +1,15 @@
+# One-click deploy on Render (https://render.com): New > Blueprint > pick this repo.
+# The free plan has no AI model, so every feature uses its rule-based version.
+services:
+  - type: web
+    name: self-actors-hub-zw
+    runtime: python
+    plan: free
+    buildCommand: pip install pypdf
+    startCommand: python run.py
+    healthCheckPath: /health
+    envVars:
+      - key: ZIMLEGAL_SECRET_KEY
+        generateValue: true
+      - key: PYTHON_VERSION
+        value: 3.11.9

@@ -1,0 +1,12 @@
+# Local data: your accounts, forum posts and saved answers. Never upload it.
+zimlegal.db
+*.db
+# Python cache
+__pycache__/
+*.pyc
+# Secrets
+.env
+# Third-party documents (e.g. the JSC IECMS guide PDF): keep them on your
+# own computer unless you have permission to publish them.
+knowledge_base/*.pdf
+knowledge_base/*.docx

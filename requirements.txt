@@ -1,0 +1,12 @@
+# This backend needs NO packages to run -- everything it uses ships with
+# Python itself. Install ONLY the ones for the extras you want:
+#
+#   pypdf  -> lets the chatbot's knowledge base read PDF files
+#             (see knowledge_base/README.md)
+#   openai -> only for the optional ChatGPT mode (AI_PROVIDER=openai).
+#             Not needed for Ollama.
+#
+# Install one:        pip install pypdf
+# Install both:       pip install -r requirements.txt
+pypdf>=4.0
+openai>=1.0.0
